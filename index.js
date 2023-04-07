@@ -24,7 +24,6 @@
         document.getElementById('num1').value = "";
         document.getElementById('num2').value = "";
         document.getElementById('answer').value = "";
-        document.getElementById('ans').innerHTML = "";
         document.getElementById("formula").innerHTML = "";
         document.getElementById("steps").innerHTML = "";
         document.getElementById("calculator-answer").innerHTML = "";
