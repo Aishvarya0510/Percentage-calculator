@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./index.js"></script>
+    <title>Calculator</title>
+
+</head>
+
+<body class="d-flex .direction">
+    <div class="content-out">
+        <div class="content-inside">
+            <h1>Percentage Calculator</h1>
+            <p>Please provide any two values below and click the "Calculate" button to get the third value.</p>
+            <div id="calculator-answer">
+
+            </div>
+            <div class="calculator-result" id="formula">
+
+            </div>
+            <div class="steps" id="steps">
+
+            </div>
+            <div class="calculator-wrap">
+                <div class="calculator-input d-flex align-items">
+                    <input type="number" id="num1" class="input-one">
+                    <b class="of">of</b>
+                    <input type="number" id="num2">
+                    <span class="equals">=</span>
+                    <input type="number" id="answer" readonly>
+                </div>
+                <div class="calculator-button d-flex align-items justify-content">
+                    <div class="calculate-btn" onclick="percentage()">
+                        <button type="button" class="calculate">Calculate</button>
+                        <span class="material-symbols-outlined play">
+                            play_circle
+                            </span>
+                    </div>
+                    <button type="button" class="clear" onclick="wipeoff()">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
